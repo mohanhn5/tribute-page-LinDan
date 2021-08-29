@@ -1,0 +1,36 @@
+#main {
+  background-color: rgb(240, 234, 234);
+}
+#title {
+  display: flex;
+  justify-content: center;
+  text-shadow: 5px 5px 10px white;
+  font-size: 7vh;
+  color: purple;
+  background-color: lightgrey;
+  padding: 10px 10px;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: -2%;
+  box-shadow: 10px 10px 10px #4678d6;
+}
+#img-caption {
+  margin-top: 2%;
+  font-size: 20px;
+}
+#tribute-info {
+  margin: 2% 20%;
+  padding: 5px 25px;
+  background-color: darkgrey;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-shadow: 10px 10px 10px #737573;
+}
+#links {
+  text-align: center;
+  margin: 4% 0px;
+  font-size: 20px;
+}
