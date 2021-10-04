@@ -10,18 +10,24 @@
   background-color: lightgrey;
   padding: 10px 10px;
 }
+#img-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 2%;
+}
 #image {
   display: block;
   max-width: 100%;
   height: auto;
-  margin-top: -40px;
   box-shadow: 10px 10px 10px #4678d6;
 }
 #img-caption {
-  margin-top: 2%;
   font-size: 20px;
+  text-align: center;
 }
 #tribute-info {
+  height: max-content;
   margin: 2% 10%;
   padding: 5px 25px;
   background-color: darkgrey;
@@ -33,4 +39,10 @@
   text-align: center;
   margin: 4% 0px;
   font-size: 20px;
+}
+@media (max-width: 480px){
+  #tribute-info{
+    margin: 2% 1%;
+    padding: 5px 30px;
+  }
 }
