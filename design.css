@@ -18,7 +18,6 @@
 }
 #image {
   display: block;
-  max-width: 60%;
   height: auto;
   box-shadow: 10px 10px 10px #4678d6;
 }
